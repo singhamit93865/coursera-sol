@@ -1,0 +1,79 @@
+h1{
+	text-align: center;
+	color: blue;
+}
+
+h2{
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	margin-left: 339px;
+	margin-top: 0px;
+}
+.one{
+	background-color: pink;
+}
+
+.two{
+	background-color: red;
+}
+
+.three{
+	background-color: yellow;
+}
+
+.first{
+    position: absolute;
+	background-color: grey;
+}
+
+.second{
+	position: absolute;
+	left: 525px;
+	background-color: yellow;
+}
+
+.third{
+	background-color: blue;
+}
+
+.first,.second,.third{
+	border: 1px solid black;
+	margin: 10px;
+	width: 450px;
+	float: right;
+}
+
+p{
+	margin: 10px;
+	padding: 5px;
+	font-family: helvetica;
+}
+
+@media(min-width: 992px){
+	
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.first{
+	width: 50%;
+    }
+
+    .second{
+    	position: relative;
+    	width: 50%;
+	    float: right;
+	    clear: both;
+	}
+    .third{
+    	position: relative;
+    	width: 100%;
+    }
+
+    h2{
+	margin-left: 325px;
+ }       
+
+@media(max-width: 767px){
+	
+ }
